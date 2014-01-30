@@ -1,6 +1,6 @@
 <?
   
-  class CoucheCache {
+  class CouchCache {
 
     protected $url;
     protected $cacheDB = "cache";
@@ -107,7 +107,7 @@
   }
   
 /*  
-  $mc = new CoucheCache("http://127.0.0.1:5984");
+  $mc = new CouchCache("http://127.0.0.1:5984");
   $mc->set("a","1");
   echo "First value of a: ".$mc->get("a")."\n";
   $mc->del("a");
